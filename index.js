@@ -49,7 +49,7 @@ function viewCart() {
 function total() {
   // write your code here
   var total = 0;
-  for()
+  for(item)
 }
 
 function removeFromCart(item) {
