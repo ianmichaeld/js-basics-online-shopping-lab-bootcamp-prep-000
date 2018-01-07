@@ -32,11 +32,12 @@ function viewCart() {
   
   for(var i=1; i<cart.length -1; i++){
     result += `, ${Object.keys(cart[i])} at $${cart[i][Object.keys(cart[i])]}`;
-;  }
+  }
   
   if(cart.length>2){
-    result += ','
+    result += ',';
   }
+  
   if(cart.length > 1){
     result += ` and ${Object.keys(cart[cart.length -1])} at $${cart[cart.length-1][Object.keys(cart[cart.length -1])]}`;
   }
